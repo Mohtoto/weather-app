@@ -30,7 +30,14 @@ async function main(input){
     document.querySelector('.high').innerHTML = `<span>High:</span>${result.main.temp_max.toFixed(0)}<span>°C</span>` 
     document.querySelector('.low').innerHTML = `<span>Low:</span>${result.main.temp_min.toFixed(0)}<span>°C</span>`
 
+   
     document.body.style.backgroundImage = "url('https://source.unsplash.com/3440x1440/?" + input + "')"
+
+
+    
+
+      
+
     
         
        
